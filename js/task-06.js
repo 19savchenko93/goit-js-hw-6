@@ -7,7 +7,7 @@ function checkIn(event) {
     const inpLength = Number(inp.dataset.length);
 
 
-    if (inp.value.length >= inpLength) {
+    if (inp.value.length === inpLength) {
         inp.classList.remove('invalid');
         inp.classList.add('valid');
     }
