@@ -14,9 +14,9 @@ function checkIn(event) {
     
     else {
         inp.classList.remove('valid');
-        inp.classList.add('invalid');;
+        inp.classList.add('invalid');
     }
-};
+}
 
 // const checkOut = (event) => {
 //     input.classList.remove("valid", "invalid");

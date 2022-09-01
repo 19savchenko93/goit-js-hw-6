@@ -23,4 +23,4 @@ buttonRef.addEventListener('click', () => {
     'style',
     'background-color: ' + spanEl.textContent
   );
-});
+})
